@@ -3,4 +3,30 @@ if NICKIEL_97
   config ZMK_KEYBOARD_NAME
     default "Nickiel 97"
 
+  config ZMK_KSCAN_MATRIX_POLLING
+  	default y
+
+  config ZMK_SLEEP
+	  default n
+
+  config ZMK_EXT_POWER
+	  default n
+
+  if ZMK_BACKLIGHT
+
+    config PWM
+      default y
+
+    config LED_PWM
+      default y
+
+  endif # ZMK_BACKLIGHT
+
+  config LED_PWM
+	  default y
+
+  config ZMK_BACKLIGHT_AUTO_OFF_IDLE
+	  default y
+# end of backlight configs
+
 endif
