@@ -6,7 +6,6 @@
 	model = "nickiel_97";
 
 	chosen {
-		zmk,kscan = &kscan;
 		zmk,physical-layout = &physical_layout_0;
 		zmk,backlight = &backlight;
 		zmk,keymap-sensors = &sensors;
