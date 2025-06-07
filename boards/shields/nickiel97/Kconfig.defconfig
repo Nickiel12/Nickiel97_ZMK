@@ -1,0 +1,6 @@
+if NICKIEL_97
+
+  config ZMK_KEYBOARD_NAME
+    default "Nickiel 97"
+
+endif
