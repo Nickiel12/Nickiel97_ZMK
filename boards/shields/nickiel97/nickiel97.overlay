@@ -7,7 +7,7 @@
 
 	chosen {
 		zmk,kscan = &kscan;
-		zmk,physical-layout = &physical_layout0;
+		zmk,physical-layout = &physical_layout_0;
 		zmk,backlight = &backlight;
 		zmk,keymap-sensors = &sensors;
 	};
