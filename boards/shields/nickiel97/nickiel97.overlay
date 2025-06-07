@@ -1,11 +1,12 @@
 #include <dt-bindings/zmk/matrix_transform.h>
+#include "nickiel97-layouts.dtsi"
+
 
 /{
 	model = "nickiel_97";
 
 	chosen {
 		zmk,kscan = &kscan;
-		//zmk,matrix_transform = &keymap_transform0;
 		zmk,backlight = &backlight;
 		zmk,keymap-sensors = &sensors;
 	};
