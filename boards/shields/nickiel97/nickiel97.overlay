@@ -1,12 +1,12 @@
-#include <dt-bindings/zmk/matrix_transform.h>
 #include "nickiel97-layouts.dtsi"
+#include <dt-bindings/zmk/matrix_transform.h>
 
 
 /{
-	model = "nickiel_97";
+	model = "nickiel97";
 
 	chosen {
-		zmk,physical-layout = &physical_layout_0;
+		zmk,physical-layout = &physical_layout0;
 		zmk,backlight = &backlight;
 		zmk,keymap-sensors = &sensors;
 	};
