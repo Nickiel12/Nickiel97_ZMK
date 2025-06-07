@@ -11,6 +11,12 @@
 		zmk,keymap-sensors = &sensors;
 	};
 
+	&physical_layout0 {
+
+		kscan = <&kscan>;
+        	transform = <&keymap_transform0>;
+	};
+
 	backlight: pwmleds {
 		compatible = "pwm-leds";
 		label = "Backlight LEDs";
