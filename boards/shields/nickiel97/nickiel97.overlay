@@ -5,7 +5,7 @@
 
 	chosen {
 		zmk,kscan = &kscan;
-		zmk,matrix_transform = &transform;
+		//zmk,matrix_transform = &keymap_transform0;
 		zmk,backlight = &backlight;
 		zmk,keymap-sensors = &sensors;
 	};
@@ -19,7 +19,7 @@
 		};
 	};
 
-	transform: transform {
+	default_transform: keymap_transform0 {
 		compatible = "zmk,matrix-transform";
 		rows = <6>;
 		columns = <16>;
