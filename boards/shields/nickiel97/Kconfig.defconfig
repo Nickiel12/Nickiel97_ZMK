@@ -6,6 +6,9 @@ if NICKIEL_97
   config ZMK_KSCAN_MATRIX_POLLING
   	default y
 
+  config ZMK_STUDIO
+	default y
+
   config ZMK_SLEEP
 	  default n
 
