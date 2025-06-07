@@ -20,6 +20,6 @@
 ---
 include:
   - board: nice_nano_v2
-    sheild: nickiel97   
+    shield: nickiel97   
     snippet: studio-rpc-usb-uart
     # cmake-args: -DCONFIG_ZMK_STUDIO=y # Not required due to KConfig setting
