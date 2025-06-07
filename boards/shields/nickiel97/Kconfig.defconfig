@@ -1,4 +1,4 @@
-if NICKIEL97
+if SHIELD_NICKIEL97
 
   config ZMK_KEYBOARD_NAME
     default "Nickiel 97"
