@@ -1,0 +1,12 @@
+file_format: "1"
+id: nickiel97
+name: Nickiel97
+type: shield
+url: https://github.com/Nickiel12/Nickiel97_ZMK/
+requires:
+  - nice_nano_v2
+features:
+  - keys
+  - encoder
+  - backlight
+  - studio
