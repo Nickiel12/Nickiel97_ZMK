@@ -2,6 +2,7 @@
 
 / {
     physical_layout0: physical_layout_0 {
+		kscan = &kscan;
         compatible = "zmk,physical-layout";
         display-name = "Default Layout";
 
