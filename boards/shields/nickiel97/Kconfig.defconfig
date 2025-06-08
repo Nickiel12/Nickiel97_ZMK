@@ -15,15 +15,6 @@ if SHIELD_NICKIEL97
   config ZMK_EXT_POWER
 	  default n
 
-  if ZMK_BACKLIGHT
-
-    config PWM
-      default y
-
-    config LED_PWM
-      default y
-
-  endif # ZMK_BACKLIGHT
 
   config LED_PWM
 	  default y
