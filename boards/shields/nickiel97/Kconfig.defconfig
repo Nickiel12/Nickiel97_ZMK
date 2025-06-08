@@ -15,12 +15,4 @@ if SHIELD_NICKIEL97
   config ZMK_EXT_POWER
 	  default n
 
-
-  config LED_PWM
-	  default y
-
-  config ZMK_BACKLIGHT_AUTO_OFF_IDLE
-	  default y
-# end of backlight configs
-
 endif
