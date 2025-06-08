@@ -6,4 +6,7 @@ config PWM
 config LED_PWM
     default y
 
+config SPI
+    default y
+
 endif # ZMK_BACKLIGHT
