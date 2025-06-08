@@ -67,7 +67,6 @@
 		status = "okay";
 		a-gpios = <&pro_micro 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 		b-gpios = <&pro_micro 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-		resolution = <2>;
 	};
 
 	sensors: sensor_node {
@@ -87,7 +86,7 @@
 		gpio-controller;
 		spi-max-frequency = <200000>;
 		reg = <0>;
-		label = "4HC595";
+		# label = "4HC595";
 		#gpio-cells = <2>;
 		ngpios = <16>;
 	};
