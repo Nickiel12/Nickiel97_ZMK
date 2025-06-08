@@ -28,7 +28,6 @@
 
 	kscan0: kscan0 {
 		compatible = "zmk,kscan-gpio-matrix";
-		label = "KSCAN";
 
 		debounce-press-ms = <1>;
 		debounce-release-ms = <5>;
@@ -66,7 +65,6 @@
 	bottom_encoder: encoder {
 		compatible = "alps,ec11";
 		status = "okay";
-		label = "BOTTOM_ENCODER";
 		a-gpios = <&pro_micro 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 		b-gpios = <&pro_micro 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 		resolution = <2>;
@@ -95,7 +93,3 @@
 	};
 };
 
-&pwm0 {
-	status = "okay";
-	ch0-pin = <6>; 
-};
