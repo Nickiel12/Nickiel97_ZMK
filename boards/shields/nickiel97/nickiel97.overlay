@@ -86,7 +86,7 @@
 		gpio-controller;
 		spi-max-frequency = <200000>;
 		reg = <0>;
-		# label = "4HC595";
+		// label = "4HC595";
 		#gpio-cells = <2>;
 		ngpios = <16>;
 	};
