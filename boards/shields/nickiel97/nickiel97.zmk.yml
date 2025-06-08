@@ -7,5 +7,4 @@ requires: [nice_nano_v2]
 features:
   - keys
   - encoder
-  - backlight
   - studio
